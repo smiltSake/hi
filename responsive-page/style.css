@@ -1,0 +1,146 @@
+/**
+Lato
+Thin 100 Italic
+Regular 400
+**/
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  padding: 15px 0;
+}
+
+.oceanImg-one {
+  height: 400px;
+  color: white;
+  background-image: url("/img/bg-masthead.jpg");
+  background-position: center;
+}
+
+.oceanImg-one .ocean-container .text {
+  font-size: 30px;
+  padding: 0 150px;
+}
+
+.oceanImg-one .ocean-container {
+  padding: 100px;
+  text-align: center;
+}
+
+.ocean-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-input {
+  width: 300px;
+  padding-right: 15px;
+}
+
+.img-small-rounded {
+  width: 100px;
+  height: 100px;
+}
+
+.fa {
+  color: blue;
+}
+
+.pin .container {
+  padding: 80px 0;
+}
+.pin .container .row h3 {
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+}
+
+.pin .container .row p {
+  color: grey;
+}
+
+.pin {
+  padding-top: 40px;
+  height: 400px;
+  background-color: rgb(237, 237, 237);
+  text-align: center;
+  color: black;
+}
+
+.pin-one {
+  display: inline-block;
+}
+
+.pages {
+  margin: 130px;
+  padding-top: 200px;
+}
+
+.img-small-rounded {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+h3 {
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+}
+
+.people {
+  padding-top: 40px;
+  height: 400px;
+  background-color: rgb(237, 237, 237);
+  text-align: center;
+  color: black;
+}
+
+.person {
+  display: inline-block;
+}
+
+.person p {
+  color: grey;
+}
+
+.oceanImg {
+  height: 300px;
+  color: white;
+  background-image: url("/img/bg-masthead.jpg");
+  background-position: center;
+}
+
+.oceanImg .ocean-container .text {
+  font-size: 30px;
+  padding: 0 50px;
+}
+
+.oceanImg .ocean-container {
+  padding: 0px;
+  text-align: center;
+}
+
+footer {
+  padding: 50px 0;
+}
+
+footer span {
+  margin: 0 10px;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons a i {
+  margin: 0 10px;
+  transform: scale(2);
+}
