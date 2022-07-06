@@ -18,7 +18,7 @@ Regular 400
 .oceanImg-one {
   height: 400px;
   color: white;
-  background-image: url("/img/bg-masthead.jpg");
+  background-image: url("./img/bg-masthead.jpg");
   background-position: center;
 }
 
@@ -113,7 +113,7 @@ h3 {
 .oceanImg {
   height: 300px;
   color: white;
-  background-image: url("/img/bg-masthead.jpg");
+  background-image: url("./img/bg-masthead.jpg");
   background-position: center;
 }
 
